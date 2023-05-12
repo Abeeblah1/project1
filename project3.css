@@ -1,0 +1,262 @@
+/* a{
+    margin: 25px;
+    padding: 5px; 
+    padding-bottom: 5px;
+    font-family: monospace;
+    text-decoration: none;
+    
+} */
+/* a:hover{
+     color: #ffff;
+     
+     
+     
+}
+a:nth-child(5){
+    float: right;
+    border: turquoise;
+}
+a:nth-child(4){
+    float: right;
+    border:none;
+}
+a:nth-child(2){
+    float: right;
+    border:none;
+}
+a:nth-child(3){
+    float: right;
+    border: none;
+}
+a:nth-child(1){
+    float: left;
+    border: none;
+}
+a:nth-child(1){
+    font-size: xx-large;
+    border: none;
+}
+a:nth-child(1):hover{
+     color: black;
+}
+header{
+    background-color: springgreen;
+    width: 100%;
+    height: 60px;
+} */
+header{
+    background-color: chartreuse;
+    text-align: center;
+    list-style:none;
+    position: relative;
+}
+header ol{
+    list-style: none;
+    display: inline-flex;
+    left: 10px;
+}
+header ol,li{
+    margin: 10px;
+    font-size: 20px;
+    padding: 8px 16px;
+    font-weight: 900;
+    color: rgb(30, 147, 123);
+     /* width: 100px;  */
+     
+}
+header ol li .kole{
+    position: absolute;
+    left: 5px;
+}
+
+.bot{
+    background: url(image/spec.img/rice4.jpg);
+    width: 100%;
+    height: 945px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.bot.h2{
+    margin-bottom: 60px;
+}
+.cot{
+    background-color: orange;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 50px;
+}
+.all{
+    display: flex;
+     
+}
+.one{
+    margin: 30px;
+    font-family: fantasy;
+    
+}
+.two{
+    margin: 30px;
+    font-family: serif;
+     
+}
+.three{
+    margin: 30px;
+    font-family: fantasy;
+     
+}
+.second{
+    display: flex;
+    font-family: monospace;
+}
+.four{
+    margin: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.five{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.six{
+    margin: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.input{
+    border: none;
+    border-bottom: 10px solid orangered;
+}
+/*.button{
+    background-color: orange;*/
+
+.third{
+    text-align: center;
+}
+.third{
+    display: flex;
+}
+.fourth{
+    display: flex;
+}
+footer{
+    background-color: palegoldenrod;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+.click{
+    width: 30px;
+    height: 20px;
+}
+footer.p{
+    margin-top: 30px;
+}
+img{
+    width: 90%;
+    height: 80%;
+}
+.ip{
+    display: flex;
+}
+.pod{
+    color: orange;
+}
+.input{
+    border-bottom: seagreen;
+    border-top: none;
+    border-radius: 5px;
+
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+p:hover{
+    width: 50%;
+    text-align: center;
+    font-family: monospace;
+}
+/*.icon{
+    display: grid;
+}*/
+fieldset{
+    background-color: teal;
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    border: blue;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: 700;
+    font-variant: normal;
+    font-size: 20px;
+    padding: auto;
+    outline:none;
+    text-decoration: none;
+}
+/* a{
+    margin: 10px;
+} */
+.icon{
+    margin-top: 150px;
+}
+  .icon ul li i {
+    justify-content: space-between;
+    
+}
+.icon ul li{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    column-gap: normal;
+    
+    margin-bottom: 5px;
+    list-style:none ;
+    font-size: x-large;
+    color: azure;
+    cursor: pointer;
+}
+@media(max-width:768px) {
+    .toggle.button{
+        display: flex;
+    }
+    .navbar.links{
+        display: none;
+        width: 100%;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    .navbar-link ul{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-linkli{
+        background-color: lightpink;
+        
+    }
+    .navbar-link.active{
+        display: flex;
+    }
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border: darkslategrey;
+    border-radius: 10px;
+    background-color: yellow;
+}
